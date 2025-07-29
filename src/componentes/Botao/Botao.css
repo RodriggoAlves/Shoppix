@@ -1,0 +1,14 @@
+.botao{
+    background-color: black;
+    color: white;
+    border: solid;
+    border-radius: 12px;
+    padding: 12px;
+    outline: none;
+}
+
+.botao:hover{
+    background-color: #242020;
+    border-color: none;
+    box-shadow: 10 0 30px rgba(0, 0, 0, 0.3);
+}

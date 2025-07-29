@@ -1,0 +1,8 @@
+.link{
+    font-family: "Poppins",sans-serif;
+    padding-left: 10px;
+    color: rgb(108, 101, 101);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
