@@ -19,6 +19,8 @@ function App() {
 
         <Route path="/cadastrar-produto" element={<CadastrarProduto/>}/>
 
+        
+
       </Routes>
     </Router>
     
