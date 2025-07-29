@@ -8,7 +8,7 @@ function ResetarSenha ( ) {
 
         <Formulario className={`formulario-resetar-senha`}>
 
-            <h2>Recuperar Senha</h2>
+            <h2 className="titulo-recuperar-senha">Recuperar Senha</h2>
             <CampoTexto type="email" placeholder="Email"/>
             <CampoTexto type="text" placeholder="Usuário"/>
 

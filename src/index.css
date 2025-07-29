@@ -19,6 +19,9 @@ body {
   min-height: 100vh;
   text-rendering: optimizeLegibility;
 }
+h2{
+  font-family: "Poppins", sans-serif;
+}
 
 /* Para remover estilo de listas */
 ul, ol {
