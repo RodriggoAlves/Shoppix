@@ -16,7 +16,10 @@ function Login() {
 
         <Botao>Fazer Login</Botao>
 
-        <Link text="Esqueci minha senha"/>
+        <Link text="Esqueci minha senha" to="/resetar-senha"/>
+
+        <Link text="Criar usuário" to="/cadastrar-usuario"/>
+
 
     </Formulario>
 

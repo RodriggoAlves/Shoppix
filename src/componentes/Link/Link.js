@@ -1,10 +1,13 @@
+import React from 'react';
+import { Link as ReactRouterLink } from 'react-router-dom';
 import './Link.css'
 
-function Link ({text}) { 
+function Link ({text, to, ...props}) { 
     return (
-        <a className='link' >
+
+        <ReactRouterLink to={to} className='link' {...props}>
             {text}
-        </a>
+        </ReactRouterLink>
     )
 }
 

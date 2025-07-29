@@ -17,7 +17,7 @@ function Registrar() {
                 
                 <Botao>cadastrar usuário</Botao>
 
-                <Link text="Fazer Login"/>
+                <Link text="Fazer Login" to="/"/>
 
             </Formulario> 
     )
