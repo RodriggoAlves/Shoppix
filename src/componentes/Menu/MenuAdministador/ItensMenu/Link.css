@@ -1,0 +1,17 @@
+.opcoes-menu{
+    cursor: pointer;
+    display: block;
+    padding: 10px 16px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #000000;
+    margin-top: 8px;
+}
+.opcoes-menu:hover{
+    transition: 0.1s;
+    transform: scale(1.1);   
+}
