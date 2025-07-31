@@ -5,6 +5,7 @@ import ResetarSenha from "./pages/ResetarSenha/ResetarSenha";
 import Registrar from "./pages/Registrar/Registrar"
 import CadastrarProduto from "./pages/CadastrarProduto/CadastrarProduto"
 import Administracao from "./pages/Administracao/Administracao";
+import Header from "./componentes/Header/Header";
 
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
     <Router>
 
       <Routes>
+        
+        <Route path="Menu" element={<Header/>} />
 
         <Route path="/" element={<Login/>}/>
 
@@ -19,7 +22,7 @@ function App() {
 
         <Route path="/cadastrar-usuario" element={<Registrar/>}/>
 
-        <Route path="/cadastrar-produto" element={<CadastrarProduto/>}/>
+        <Route path="/cadastrar" element={<CadastrarProduto/>}/>
 
         <Route path="/Admin" element={<Administracao/>}/>
 
