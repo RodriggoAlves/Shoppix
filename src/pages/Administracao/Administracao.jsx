@@ -20,12 +20,6 @@ function Administracao() {
 
         <h2 className='titulo-dashboard' >Dashboard</h2>
 
-        <a className='grafico-1'>18</a>
-
-
-
-
-
       </div>
 
     </div>
