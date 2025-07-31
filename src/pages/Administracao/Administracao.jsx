@@ -5,14 +5,28 @@ import Link from '../../componentes/Menu/MenuAdministador/ItensMenu/Link';
 
 function Administracao() {
   return (
+    
+    <div className='container-principal'>
 
-    <div className='menu'>
+      <div className='div-menu'>
+          <h2 className="titulo-menu">Administração</h2>
+          <Link text={"Produtos"} to="/produtos"/>
+          <Link text={"Cadastrar produtos"} to="/cadastrar-produto"/>
+          <Link text={"Relatórios"} to="/relatorios"/>
+          <Link text={"Usuários"} to="/usuarios"/>
+      </div>
+    
+      <div className='div-dashboard'>
 
-      <h2 className="titulo-menu">Administração</h2>
-      
-      <Link text={"Produtos"} to="/"/>
-      <Link text={"Cadastrar produtos"} to="/cadastrar-produto"/>
-      <Link text={"Relatórios"} to="/relatorios"/>
+        <h2 className='titulo-dashboard' >Dashboard</h2>
+
+        <a className='grafico-1'>18</a>
+
+
+
+
+
+      </div>
 
     </div>
 
