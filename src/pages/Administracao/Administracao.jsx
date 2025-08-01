@@ -7,7 +7,6 @@ function Administracao() {
 
   return (
 
-
     <div className='container-principal'>
 
       <div className='div-menu'>
