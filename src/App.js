@@ -6,6 +6,7 @@ import Registrar from "./pages/Registrar/Registrar"
 import CadastrarProduto from "./pages/CadastrarProduto/CadastrarProduto"
 import Administracao from "./pages/Administracao/Administracao";
 import Header from "./componentes/Header/Header";
+import Teste from "./pages/Test/Teste";
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path="/cadastrar" element={<CadastrarProduto/>}/>
 
         <Route path="/Admin" element={<Administracao/>}/>
+
+        <Route path="/Teste" element={<Teste/>}/>
 
       </Routes>
 

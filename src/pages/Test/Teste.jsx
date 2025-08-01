@@ -1,16 +1,18 @@
-import './Administracao.css'
+import './Teste.css'
 import '../../componentes/Menu/MenuAdministador/ItensMenu/Link'
 import '../../componentes/Menu/MenuAdministador/ItensMenu/Link'
 import Link from '../../componentes/Menu/MenuAdministador/ItensMenu/Link';
  
-function Administracao() {
+function Teste() {
 
-  const itensMenu = [
-      {text:'Produtos',to:'/produtos'},
-      {text:'Cadastrar',to:'/Cadastrar'},
-      {text:'Relatórios',to:'/relatorios'},
-      {text:'Usuários',to:'/usuarios'}
-  ]
+
+    const itensMenu = [
+        {text:'Produtos',to:'/produtos'},
+        {text:'Cadastrar',to:'/Cadastrar'},
+        {text:'Relatórios',to:'/relatorios'},
+        {text:'Usuários',to:'/usuarios'},
+        {text:'Ighor Lima', to:'/teste'}
+    ]
 
   return (
 
@@ -20,9 +22,11 @@ function Administracao() {
 
           <h2 className="titulo-menu">Administração</h2>
 
-          {itensMenu.map((item) => 
+          {itensMenu.map((item) =>
             <Link text={item.text} to={item.to}/>
-          )}
+               
+        )}
+          
           
       </div>
     
@@ -37,4 +41,4 @@ function Administracao() {
   );
 }
 
-export default Administracao;
+export default Teste;
