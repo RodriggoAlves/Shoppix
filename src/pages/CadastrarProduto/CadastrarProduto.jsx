@@ -15,10 +15,7 @@ function CadastrarProduto ( ) {
             <CampoTexto type='text' placeholder='Descrição'/>
             <CampoTexto type='text' placeholder='Categoria'/>
             <CampoTexto type='text' placeholder='Marca'/>
-
-            <CampoTexto type='number' placeholder='Quantidade de produto'/>
             <CampoTexto type='text' placeholder='Tipo do produto'/>
-
 
             <Botao>Cadastrar Produto</Botao>
 
