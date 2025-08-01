@@ -2,7 +2,7 @@ import './Administracao.css'
 import '../../componentes/Menu/MenuAdministador/ItensMenu/Link'
 import '../../componentes/Menu/MenuAdministador/ItensMenu/Link'
 import Link from '../../componentes/Menu/MenuAdministador/ItensMenu/Link';
-
+ 
 function Administracao() {
 
   return (
@@ -17,6 +17,7 @@ function Administracao() {
           <Link text={"Cadastrar"} to="/cadastrar"/>
           <Link text={"Relatórios"} to="/relatorios"/>
           <Link text={"Usuários"} to="/usuarios"/>
+          
       </div>
     
       <div className='div-dashboard'>

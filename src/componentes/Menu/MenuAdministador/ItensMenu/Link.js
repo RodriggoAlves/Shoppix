@@ -10,7 +10,6 @@ function Link ({text, to, ...props} ) {
         </ReactRouterLink>
 
     )
-} 
-
+}
 
 export default Link;
